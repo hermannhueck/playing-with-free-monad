@@ -8,7 +8,7 @@
 
  */
 
-package runar_bjarnason.orig
+package runar_bjarnason.original
 
 import scala.language.higherKinds
 
