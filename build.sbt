@@ -22,8 +22,9 @@ resolvers += Resolver.bintrayRepo("projectseptemberinc", "maven")
 libraryDependencies ++= Seq(
   "org.typelevel" %% "cats-core" % "1.1.0",
   "org.typelevel" %% "cats-free" % "1.1.0",
-  "com.projectseptember" %% "freek" % "0.6.7"
-  // "com.milessabin" %% "si2712fix-plugin" % "1.2.0"
+  "com.projectseptember" %% "freek" % "0.6.7",
+  "org.scalaz" %% "scalaz-core" % "7.2.25",
+  "org.scalaz" %% "scalaz-concurrent" % "7.2.25"
 )
 
 addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.9.7")

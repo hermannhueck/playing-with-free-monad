@@ -1,3 +1,8 @@
+/*
+  Original code copied from
+  http://eed3si9n.com/herding-cats/Free-monads.html
+ */
+
 package herding_cats
 
 import scala.language.higherKinds
